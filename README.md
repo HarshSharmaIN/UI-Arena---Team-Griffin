@@ -42,3 +42,12 @@ Follow these steps to set up and run the application locally:
    ```bash
    git clone https://github.com/HarshSharmaIN/UI-Arena---Team-Griffin.git
    cd frontend
+   ```
+2. **Install Packages**:
+   ```bash
+   npm install
+   ```
+3. **Start Local Development**
+   ```bash
+   npm run dev
+   ```
