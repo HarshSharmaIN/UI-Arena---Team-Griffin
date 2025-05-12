@@ -18,7 +18,7 @@ TableTaste is a restaurant reservation platform that allows users to discover, e
 
 ### Hosting
 - **Local Development**: Vite Dev Server (for local testing and development)
-- **Hosted**: [Netlify Url]
+- **Hosted**: [Netlify Url](https://tabletaste.netlify.app/)
 
 ## Screenshots & Previews
 
