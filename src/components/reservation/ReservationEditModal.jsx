@@ -51,7 +51,6 @@ const ReservationEditModal = ({ isOpen, onClose, reservation, onUpdate }) => {
         restaurantId: reservation.restaurantId,
         date: formattedDate,
         time: reservation.time,
-        availableTables: 1
       }
       
       const isCurrentTimeIncluded = slots.some(slot => slot.time === reservation.time)
@@ -63,8 +62,7 @@ const ReservationEditModal = ({ isOpen, onClose, reservation, onUpdate }) => {
       
       allSlots.sort((a, b) => a.time.localeCompare(b.time))
       
-      const availableSlots = allSlots.filter(slot => slot.availableTables > 0)
-      setAvailableSlots(availableSlots)
+      setAvailableSlots(allSlots)
       
       if (!time && availableSlots.length > 0) {
         setTime(availableSlots[0].time)
