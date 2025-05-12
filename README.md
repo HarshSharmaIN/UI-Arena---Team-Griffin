@@ -40,5 +40,5 @@ Follow these steps to set up and run the application locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/HarshSharmaIN/UI-Arena---Team-Griffin.git)
    cd frontend
